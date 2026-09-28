@@ -50,7 +50,7 @@ Once you have the model downloaded, Use the `summary()` function to get more inf
 
     gemma_lm.summary()
 
-```
+```god
 Preprocessor: "gemma4_causal_lm_preprocessor"
 ```
 
@@ -70,7 +70,7 @@ Preprocessor: "gemma4_causal_lm_preprocessor"
 └───────────────────────────────────────────────────────────────┴──────────────────────────────────────────┘
 ```
 
-```
+```god
 Model: "gemma4_causal_lm_1"
 ```
 
@@ -124,15 +124,15 @@ Model: "gemma4_causal_lm_1"
 └───────────────────────────────┴───────────────────────────┴─────────────────┴────────────────────────────┘
 ```
 
-```
+```d
  Total params: 5,104,298,467 (10.39 GB)
 ```
 
-```
+```rmd
  Trainable params: 5,104,186,912 (10.39 GB)
 ```
 
-```
+```rmd
  Non-trainable params: 111,555 (435.69 KB)
 ```
 
@@ -217,7 +217,7 @@ You can control the generation strategy for model object by setting the `sampler
     output = gemma_lm.generate("The universe is", max_length=64)
     print(output)
 
-```cmd
+```.aprompt
 The universe is vast.
 
 The stars glitter like scattered diamonds on a black velvet canvas. Nebulae swirl in vibrant hues, painting cosmic masterpieces, whispering tales of ancient creation. Galaxies spin in majestic dances, their arms reaching out into the void, a breathtaking spectacle for the eyes.
@@ -257,7 +257,7 @@ Load the image and format the data so the model can process it. Use `read_image(
     )
     plt.imshow(image)
 
-```mt
+```nim
 <matplotlib.image.AxesImage at 0x7ebbf41738f0>
 ```
 
