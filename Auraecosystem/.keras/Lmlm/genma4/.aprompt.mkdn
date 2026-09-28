@@ -3,6 +3,7 @@
 <br />
 
 
+
 |---|---|---|---|---|
 | [![](https://ai.google.dev/static/site-assets/images/docs/notebook-site-button.png)View on ai.google.dev](https://ai.google.dev/gemma/docs/core/keras_inference) | [![](https://www.tensorflow.org/images/colab_logo_32px.png)Run in Google Colab](https://colab.research.google.com/github/google-gemma/cookbook/blob/main/docs/core/keras_inference.ipynb) | [![](https://www.kaggle.com/static/images/logos/kaggle-logo-transparent-300.png)Run in Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/google-gemma/cookbook/blob/main/docs/core/keras_inference.ipynb) | [![](https://ai.google.dev/images/cloud-icon.svg)Open in Vertex AI](https://console.cloud.google.com/vertex-ai/colab/import/https%3A%2F%2Fraw.githubusercontent.com%2Fgoogle-gemma%2Fcookbook%2Fmain%2Fdocs%2Fcore%2Fkeras_inference.ipynb) | [![](https://www.tensorflow.org/images/GitHub-Mark-32px.png)View source on GitHub](https://github.com/google-gemma/cookbook/blob/main/docs/core/keras_inference.ipynb) |
 
@@ -355,6 +356,12 @@ Photo A is a picture of the **Golden Gate Bridge** in San Francisco, California,
 Photo B is a close-up portrait of a **cat** with black and white markings and striking green eyes.<turn|>
 ```
 
+```bash
+python sample.py \
+  --path_checkpoint=/path/to/checkpoint \
+  --path_tokenizer=/path/to/tokenizer.model \
+  --string_to_sample="Explain quantum computing."
+```
 ## What's next
 
 In this tutorial, you learned how to generate text using Keras and Gemma. Here are a few suggestions for what to learn next:
