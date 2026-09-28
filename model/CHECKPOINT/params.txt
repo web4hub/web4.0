@@ -1,0 +1,3 @@
+Total parameters:       5,104,298,467
+Trainable parameters:   5,104,186,912
+Non-trainable:                111,555
